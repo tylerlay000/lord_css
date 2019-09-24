@@ -1,0 +1,180 @@
+body{
+  background-color:rgb(241, 247, 248);
+}
+
+h1{
+  font-family: 'Anton', sans-serif;
+  text-align:center;
+  text-shadow:0px 1px 10px rgb(0, 47, 255);
+  color:antiquewhite;
+  letter-spacing: 10px;
+
+}
+
+h2{
+  font-family: 'Vollkorn SC', serif;
+  text-shadow:0px -1px 10px rgb(0, 47, 255);
+  color:rgb(255, 236, 210);
+}
+
+h3{
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+h4{
+
+}
+
+
+article{
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size:20px;
+  text-indent:30px;
+  line-height:30px;
+  word-spacing: 5px;
+  border-style:inset;
+  border: 5px solid rgb(216, 220, 240);
+  text-shadow:0px 1px 2px rgb(0, 47, 255);
+}
+
+header{
+
+}
+
+section{
+
+}
+
+footer{
+  font-size:30px;
+  border-style:inset;
+  border: 5px solid rgb(216, 220, 240);
+  font-family: 'Anton', sans-serif;
+  text-align:center;
+  text-shadow:0px 1px 10px rgb(0, 47, 255);
+  color:black;
+  letter-spacing: 5px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+li a:hover {
+  background-color: #111;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  position: relative;
+}
+
+.mySlides {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: black;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
